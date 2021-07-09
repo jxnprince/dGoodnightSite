@@ -1,1 +1,9 @@
 /* TODO Add site wide styles */
+
+*{
+    display: inline-block;
+}
+
+body{
+    margin: 10px;
+}
