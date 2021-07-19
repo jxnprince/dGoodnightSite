@@ -25,6 +25,11 @@ const NavBar = () => {
         <li>
           <LogoutButton />
         </li>
+        <li>
+          <NavLink to='/' activeClassName='active'>
+            <h1>Looks like this page doesn't exist!</h1>
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
