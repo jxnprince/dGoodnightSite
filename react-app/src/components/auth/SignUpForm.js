@@ -22,12 +22,13 @@ const SignUpForm = () => {
     }
   };
 
-  const updateUsername = (e) => {
-    setUsername(e.target.value);
-  };
-
+  
   const updateEmail = (e) => {
     setEmail(e.target.value);
+  };
+  
+  const updateUsername = (e) => {
+    setUsername(e.target.value);
   };
 
   const updatePassword = (e) => {
